@@ -176,7 +176,7 @@
 			`user_id` int(11) NOT NULL,
 			  `username` varchar(50) NOT NULL,
 			  `password` varchar(50) NOT NULL,
-			  `cookie` varchar(300) NOT NULL,
+			  `cookie` varchar(300) NULL,
 			  `settings` varchar(200) DEFAULT NULL
 			) ENGINE=".$this->Engine." DEFAULT CHARSET=".$this->Charset.";";
 			if(MODULE_WALLET)
